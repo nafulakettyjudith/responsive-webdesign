@@ -1,0 +1,29 @@
+nav{
+    background-color: aqua;
+    padding: 2em 0;
+}
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.nav__links ul{
+    display: flex;
+    gap: 3em;
+}
+  .nav__links ul li {
+    list-style-type: none;
+  }
+  .nav__icons{
+    display: flex;
+    gap: 3em;
+  }
+  
+  
+p{
+    padding-top: 2em;
+    
+}
+h1{
+ padding-top: 2em;   
+}
