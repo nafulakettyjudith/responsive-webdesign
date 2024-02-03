@@ -1,6 +1,6 @@
 @import url("sections/header.css");
 
-*{
+*{background-color: #EEA539;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -10,4 +10,16 @@
   width: 90%;
   margin:0 auto;
 
+}
+.image{
+  background-color: black ;
+  display: inline-flex;
+}
+.images{
+  background-color: black;
+  display: inline-flex;
+}
+.star{
+  background-color: black;
+  display: inline-flex;
 }
