@@ -9,16 +9,4 @@
 .container {
   width: 90%;
   margin: 0 auto;
-}
-.image {
-  background-color: black;
-  display: inline-flex;
-}
-.restorant {
-  background-color: black;
-  display: inline-flex;
-}
-.star {
-  background-color: black;
-  display: inline-flex;
-}
+
