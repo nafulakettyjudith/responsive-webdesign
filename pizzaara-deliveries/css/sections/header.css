@@ -24,3 +24,34 @@ p {
 h1 {
   padding-top: 2em;
 }
+hero{
+  padding: 2em 0;
+}
+.hero__pizza{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.new__menu p{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.special__menu{
+  display: flex;
+  justify-content: center;
+  align-self: start;
+}
+.star{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.restorant{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
