@@ -7,27 +7,46 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+
 .nav__links ul {
   display: flex;
-  gap: 3em;
+  gap:7em;
+  
 }
 .nav__links ul li {
+  
   list-style-type: none;
 }
+.nav__links ul li a{
+  
+    text-decoration: none;
+    color: black;
+  }
+  .nav__links ul li a:hover{
+    color: white;
+    background-color: #eea534;
+  }
+  .nav__links ul li a{
+    padding: 1em;
+  }
+
 .nav__icons {
   display: flex;
   gap: 3em;
 }
 
 p {
-  padding-top: 2em;
+  padding:2em 0;
+
 }
 h1 {
   padding-top: 2em;
+  margin-top: 4%;
+  margin-bottom:4%;
 }
 hero{
-  padding-left: 2em
-  border-radius: 2em%;
+  padding-left: 20px;
+  
 }
 .hero__pizza{
   display: flex;
@@ -51,11 +70,19 @@ hero{
 .image{
   display: flex;
   justify-content: space-between;
+  border-radius: 50;
+  padding: 0em; 
+  margin-top: 5%;
 
 }
 .image__left{
   background-color: #f4f7fb;
+  align-items: center;
+  top: 2px;
 }
+/* .images__picture{
+  top:20px;
+} */
 .image__center{
 
   background-color: #f4f7fb;
@@ -67,6 +94,7 @@ hero{
 
   display: inline-flex;
   background-color: black;
+  border-radius: 50%;
 }
 .restorant{
   display: inline-flex;
@@ -75,4 +103,21 @@ hero{
 .star {
   background-color: black;
   display: inline-flex;
+}
+.ul ul {
+  justify-content: space-around;
+  display:flex;
+  
+}
+.ul ul li{
+  list-style-type: none;
+}
+.ul ul li a{
+  text-decoration: none;
+  color: black;
+  padding: 1em;
+}
+.ul ul li a:hover{
+color: white;
+background-color: #eea534;
 }

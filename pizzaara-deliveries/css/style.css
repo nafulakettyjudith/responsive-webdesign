@@ -1,6 +1,5 @@
 @import url("sections/header.css");
-
- {background-color:ou
+*{
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
@@ -9,4 +8,6 @@
 .container {
   width: 90%;
   margin: 0 auto;
+}
+
 
